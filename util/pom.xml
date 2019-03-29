@@ -11,5 +11,26 @@
 
     <artifactId>util</artifactId>
 
+    <dependencies>
+        <!-- 日志,访问模块与Servlet容器集成提供通过Http来访问日志的功能 -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-access</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+        <!-- 日志,样例 -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-examples</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
