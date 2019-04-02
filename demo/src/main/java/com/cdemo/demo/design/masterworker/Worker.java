@@ -29,8 +29,13 @@ public class Worker implements Runnable {
         while (true) {
             Task task = this.workQueue.poll();
             if (task != null) {
+                try {
+                    Thread.sleep(100);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 log.info("线程开始{}开始处理任务{}", Thread.currentThread().getName(), task);
-                resultMap.put(Thread.currentThread().getName(), task);
+                resultMap.put(String.valueOf(task.getId()), task);
             }else {
                 log.info("线程开始{}已经无法获取新的任务，关闭", Thread.currentThread().getName());
                 break;
