@@ -94,6 +94,25 @@
 		</encoder>
 	</appender>
 
+	<appender name="demoRolling" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_HOME_DEMO}/demo.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${LOG_HOME_DEMO}/demo-%d{yyyy-MM-dd}.%i.zip
+			</fileNamePattern>
+			<maxHistory>30</maxHistory>
+			<TimeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<MaxFileSize>1MB</MaxFileSize>
+			</TimeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<encoder>
+			<pattern>
+				<!-- %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %caller{0} - %msg%n -->
+				${pattern}
+			</pattern>
+			<!-- <immediateFlush>true</immediateFlush> -->
+		</encoder>
+	</appender>
+
 	<!-- ERROR级别日志 -->
 	<!-- 滚动记录文件，先将日志记录到指定文件，当符合某个条件时，将日志记录到其他文件 RollingFileAppender -->
 	<appender name="ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -124,19 +143,14 @@
 		</encoder>
 	</appender>
 
-	<logger name="common" level="INFO">
+	<logger name="com.cdemo.util" level="INFO">
 		<appender-ref ref="commonRolling" />
 	</logger>
-	<logger name="service" level="INFO">
+	<logger name="com.cdemo.service" level="INFO">
 		<appender-ref ref="serviceRolling" />
 	</logger>
-	<logger name="test" level="INFO">
+	<logger name="com.cdemo.demo" level="INFO">
 		<appender-ref ref="testRolling" />
-	</logger>
-	<!-- demo日志上线后置为OFF，不输出日志 -->
-	<logger name="demo" level="DEBUG">
-	</logger>
-	<logger name="com.cdemo" level="DEBUG" dditivity="false">
 	</logger>
 
 	<!-- root级别 DEBUG -->

@@ -31,6 +31,13 @@
             <version>4.12</version>
         </dependency>
 
+        <!-- 多功能注解 -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.6</version>
+        </dependency>
+
     </dependencies>
 
 </project>

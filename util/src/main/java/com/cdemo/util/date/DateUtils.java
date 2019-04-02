@@ -1,4 +1,4 @@
-package main.java.com.cdemo.util.date;
+package com.cdemo.util.date;
 
 /**
 *@description: 
