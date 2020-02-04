@@ -16,6 +16,13 @@
     </properties>
 
     <dependencies>
+        <!-- fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.58</version>
+        </dependency>
+
         <!-- 日志,访问模块与Servlet容器集成提供通过Http来访问日志的功能 -->
         <dependency>
             <groupId>ch.qos.logback</groupId>

@@ -28,6 +28,7 @@ public class TransEventProducer {
         try {
             //用上面的索引取出一个空的事件用于填充（获取该序号对应的事件对象）
             TransEvent event = ringBuffer.get(sequence);
+            
 
             //获取要通过事件传递的业务数据
             TransBean transBean = new TransBean();

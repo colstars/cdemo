@@ -10,4 +10,11 @@ public class LogTest {
     public void test1() {
         log.info("haha");
     }
+
+    public static void main(String[] args) {
+        while (true){
+            System.out.println(11);
+            return;
+        }
+    }
 }
