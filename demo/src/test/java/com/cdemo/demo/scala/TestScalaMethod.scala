@@ -102,4 +102,23 @@ class TestScalaMethod {
     println(map)
   }
 
+  def testList2(studentList : List[Student]) : List[(String, String)] = {
+    val tuples = new ListBuffer[(String, String)]
+    tuples ++= studentList.map(s => (s.getName, s.getSex))
+    println(tuples.toList)
+
+    val strings = tuples.toList.map(entry => s"${entry._1}_${entry._2}")
+    println(strings)
+
+    println(strings.sorted.mkString(","))
+
+
+    tuples.toList
+  }
+
+  def testTry = {
+    var vv = 11;
+    scala.util.Try(vv).f
+  }
+
 }
