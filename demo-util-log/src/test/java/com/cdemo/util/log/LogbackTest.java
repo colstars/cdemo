@@ -4,17 +4,12 @@ import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
 @Slf4j
-public class LogTest {
+public class LogbackTest {
     
     @Test
     public void test1() {
         log.info("haha");
+        log.debug("111");
     }
 
-    public static void main(String[] args) {
-        while (true){
-            System.out.println(11);
-            return;
-        }
-    }
 }

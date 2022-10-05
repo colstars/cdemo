@@ -1,0 +1,1 @@
+dubboLogFilter=com.cdemo.dubbo.consumer.filter.DubboLogFilter

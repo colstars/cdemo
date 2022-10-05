@@ -4,6 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+<!--<version>2.4.3</version>-->
+        <version>1.5.9.RELEASE</version>
+        <relativePath/>
+    </parent>
+
     <groupId>com.cdemo</groupId>
     <artifactId>cdemo</artifactId>
     <packaging>pom</packaging>
@@ -11,6 +19,14 @@
     <modules> 
         <module>util</module>
         <module>demo</module>
+        <module>learnspringboot</module>
+        <module>learnstatemachine</module>
+        <module>demo-common-dal</module>
+        <module>demo-service</module>
+        <module>demo-util-log</module>
+        <module>demo-dubbo-provider</module>
+        <module>demo-dubbo-consumer</module>
+        <module>demo-dubbo-common</module>
     </modules>
 
 

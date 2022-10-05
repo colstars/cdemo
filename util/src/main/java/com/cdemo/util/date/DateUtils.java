@@ -24,6 +24,7 @@ public class DateUtils {
      * @param formatStr 转化规则
      * @return 返回转化后的Date类型的时间
      */
+
     public static Date strToDate(String dateTimeStr, String formatStr) {
         DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern(formatStr);
         DateTime dateTime = dateTimeFormatter.parseDateTime(dateTimeStr);
