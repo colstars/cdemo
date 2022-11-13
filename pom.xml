@@ -12,6 +12,7 @@
         <relativePath/>
     </parent>
 
+    <!-- -->
     <groupId>com.cdemo</groupId>
     <artifactId>cdemo</artifactId>
     <packaging>pom</packaging>

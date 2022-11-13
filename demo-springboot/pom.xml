@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <!--springboot star    -->
     <artifactId>demo-springboot</artifactId>
 
     <properties>
