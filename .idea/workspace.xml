@@ -5,91 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8f75174-1621-4d50-8deb-717e1c76cb8b" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-common-dal/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-common-dal/src/main/java/com/cdemo/dal/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-common-dal/src/main/java/com/cdemo/dal/daoslave/UserSlaveDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-common-dal/src/main/java/com/cdemo/dal/datasource/DataSourceLdsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-common-dal/src/main/java/com/cdemo/dal/datasource/DataSourceLdspSlave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-common-dal/src/main/java/com/cdemo/dal/model/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-common-dal/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-common-dal/src/main/resources/applicationContext-datasources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-common-dal/src/main/resources/logback-cdemo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-common-dal/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-common-dal/src/main/resources/mapperslave/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-common-dal/src/main/resources/spring-dal.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-common/src/main/java/provider/bean/ProviderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-common/src/main/java/provider/bean/ProviderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-common/src/main/java/provider/common/AbstractRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-common/src/main/java/provider/common/AbstractResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-common/src/main/java/provider/facade/ProviderFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-consumer/src/main/java/com/cdemo/dubbo/consumer/ConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-consumer/src/main/java/com/cdemo/dubbo/consumer/bean/ConsumerRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-consumer/src/main/java/com/cdemo/dubbo/consumer/bean/ConsumerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-consumer/src/main/java/com/cdemo/dubbo/consumer/common/AbstractRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-consumer/src/main/java/com/cdemo/dubbo/consumer/common/AbstractResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-consumer/src/main/java/com/cdemo/dubbo/consumer/controller/ViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-consumer/src/main/java/com/cdemo/dubbo/consumer/facade/ConsumerFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-consumer/src/main/java/com/cdemo/dubbo/consumer/facade/impl/ProviderFacadeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-consumer/src/main/java/com/cdemo/dubbo/consumer/filter/DubboLogFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-consumer/src/main/resources/META-INF/dubbo/com.alibaba.dubbo.rpc.Filter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-consumer/src/main/resources/dubbo.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-provider/src/main/java/com/cdemo/dubbo/provider/ProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-provider/src/main/java/com/cdemo/dubbo/provider/facade/impl/ProviderFacadeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-provider/src/main/java/com/cdemo/dubbo/provider/filter/DubboLogFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-provider/src/main/resources/META-INF/dubbo/com.alibaba.dubbo.rpc.Filter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-provider/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-provider/src/main/resources/dubbo.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-service/src/main/java/com/cdemo/service/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-service/src/main/java/com/cdemo/service/base/aop/ServiceLogAop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-service/src/main/java/com/cdemo/service/impl/HelloServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-util-log/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-util-log/src/main/resources/logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-util-log/src/main/resources/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-util-log/src/test/java/com/cdemo/util/log/JULTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-util-log/src/test/java/com/cdemo/util/log/LogbackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/cdemo/demo/concurrency/NamedThreadFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/cdemo/demo/concurrency/PromiseClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/cdemo/demo/concurrency/ThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnspringboot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnspringboot/src/main/java/com/cdemo/learnspringboot/LearnspringbootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnspringboot/src/main/java/com/cdemo/learnspringboot/base/annotation/CacheAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnspringboot/src/main/java/com/cdemo/learnspringboot/base/annotation/RemoveCacheAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnspringboot/src/main/java/com/cdemo/learnspringboot/base/aop/CacheAop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnspringboot/src/main/java/com/cdemo/learnspringboot/config/redis/CfbsRedisCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnspringboot/src/main/java/com/cdemo/learnspringboot/config/redis/RedisSentinelConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnspringboot/src/main/java/com/cdemo/learnspringboot/learnspringboot/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnspringboot/src/main/java/com/cdemo/learnspringboot/view/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnspringboot/src/main/resources/application2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnspringboot/src/main/resources/spring-redis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnspringboot/src/test/java/com/cdemo/learnspringboot/learnspringboot/LearnspringbootApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnstatemachine/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnstatemachine/src/main/java/com/cdemo/learnstatemachine/core/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnstatemachine/src/main/java/com/cdemo/learnstatemachine/core/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnstatemachine/src/main/java/com/cdemo/learnstatemachine/core/StateMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnstatemachine/src/main/java/com/cdemo/learnstatemachine/core/StateMachineConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-springboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cdemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnspringboot/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnspringboot/src/main/java/com/cdemo/learnspringboot/LearnspringbootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/cdemo/learnspringboot/LearnspringbootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnspringboot/src/main/java/com/cdemo/learnspringboot/base/annotation/CacheAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/cdemo/learnspringboot/base/annotation/CacheAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnspringboot/src/main/java/com/cdemo/learnspringboot/base/annotation/RemoveCacheAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/cdemo/learnspringboot/base/annotation/RemoveCacheAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnspringboot/src/main/java/com/cdemo/learnspringboot/base/aop/CacheAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/cdemo/learnspringboot/base/aop/CacheAop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnspringboot/src/main/java/com/cdemo/learnspringboot/config/redis/CfbsRedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/cdemo/learnspringboot/config/redis/CfbsRedisCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnspringboot/src/main/java/com/cdemo/learnspringboot/config/redis/RedisSentinelConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/cdemo/learnspringboot/config/redis/RedisSentinelConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnspringboot/src/main/java/com/cdemo/learnspringboot/learnspringboot/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/cdemo/learnspringboot/learnspringboot/ServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnspringboot/src/main/java/com/cdemo/learnspringboot/view/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-springboot/src/main/java/com/cdemo/learnspringboot/view/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnspringboot/src/main/resources/application2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnspringboot/src/main/resources/spring-redis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnspringboot/src/test/java/com/cdemo/learnspringboot/learnspringboot/LearnspringbootApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnstatemachine/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-statemachine/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnstatemachine/src/main/java/com/cdemo/learnstatemachine/core/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-statemachine/src/main/java/com/cdemo/learnstatemachine/core/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnstatemachine/src/main/java/com/cdemo/learnstatemachine/core/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-statemachine/src/main/java/com/cdemo/learnstatemachine/core/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnstatemachine/src/main/java/com/cdemo/learnstatemachine/core/StateMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-statemachine/src/main/java/com/cdemo/learnstatemachine/core/StateMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnstatemachine/src/main/java/com/cdemo/learnstatemachine/core/StateMachineConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-statemachine/src/main/java/com/cdemo/learnstatemachine/core/StateMachineConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/main/java/com/cdemo/util/date/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/main/java/com/cdemo/util/date/DateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-util-log/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/test/java/com/cdemo/util/log/LogTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/util.iml" beforeDir="false" />
     </list>
     <list id="e32f46d3-e240-49e3-9fdb-e853d335d846" name="another Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,6 +65,11 @@
         <option name="argument" value="--tags" />
         <option name="title" value="All" />
       </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev_20221113" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -180,42 +125,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="ScalaMemberFindUsagesOptions.isSearchForTextOccurrences" value="false" />
-    <property name="TODO_SCOPE" value="All Places" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="true" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576208218492" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BurningOKR/backend/burning-okr" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.197351" />
-    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
-    <property name="settings.editor.splitter.proportion" value="0.2649494" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/4_code/git/cdemo/demo-springboot/src/main/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.tools"
+  }
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\4_code\git\cdemo\demo-springboot\src\main\java" />
       <recent name="E:\4_code\git\cdemo\demo-dubbo-consumer\src\main\resources\META-INF\dubbo" />
       <recent name="E:\4_code\git\cdemo\demo-dubbo-consumer\src\main\resources" />
       <recent name="E:\4_code\git\cdemo\demo-dubbo-common\src\main\java" />
       <recent name="E:\4_code\git\cdemo\demo-dubbo-consumer\src\main\java\com\cdemo\dubbo\consumer" />
-      <recent name="E:\4_code\git\cdemo\demo-dubbo-consumer\src\main\java\com\cdemo\dubbo\consumer\facade" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\4_code\git\cdemo\demo-util-log\src\main\resources" />
@@ -281,7 +213,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JULTest.test1">
+  <component name="RunManager" selected="Application.LearnspringbootApplication">
+    <configuration name="LearnspringbootApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cdemo.learnspringboot.LearnspringbootApplication" />
+      <module name="demo-springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cdemo.learnspringboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JULTest.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo-util-log" />
       <extension name="coverage">
@@ -330,19 +275,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="demo-dubbo-consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cdemo.dubbo.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cdemo.dubbo.consumer.ConsumerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LearnspringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="learnspringboot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cdemo.learnspringboot.LearnspringbootApplication" />
@@ -366,8 +298,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ThreadTest.test1" />
-        <item itemvalue="JUnit.JULTest.test1" />
         <item itemvalue="JUnit.JULTest.test1 (1)" />
+        <item itemvalue="JUnit.JULTest.test1" />
+        <item itemvalue="Application.LearnspringbootApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -640,7 +573,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

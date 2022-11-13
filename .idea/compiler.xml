@@ -8,13 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo-service" />
+        <module name="demo-springboot" />
+        <module name="demo-statemachine" />
         <module name="util" />
         <module name="demo-dubbo-consumer" />
         <module name="demo-common-dal" />
         <module name="demo-util-log" />
         <module name="demo-log" />
-        <module name="learnspringboot" />
-        <module name="learnstatemachine" />
         <module name="demo-dubbo-provider" />
         <module name="demo" />
         <module name="demo-dubbo-common" />
@@ -23,7 +23,9 @@
     <bytecodeTargetLevel target="8">
       <module name="demo-dubbo-server" target="8" />
       <module name="demo-log" target="8" />
+      <module name="demo-spring" target="1.8" />
       <module name="demo.dubbo.common" target="8" />
+      <module name="learnspringboot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
