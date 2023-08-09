@@ -13,6 +13,9 @@ import java.util.List;
  */
 public class GenerateTicket {
 
+    /**
+     * 星星
+     */
     @Test
     public void test1(){
         List<String> list = new ArrayList<String>();
